@@ -1,0 +1,81 @@
+{
+  "users": [
+    {
+      "name": "",
+      "family": "",
+      "email": "",
+      "password": "",
+      "profile": "",
+      "registration_title": "",
+      "account_credit": "",
+      "university" : "بوعلی سینا",
+      "auto_reserve": [
+        {
+          "days_of_week": [],
+          "key_word": [],
+          "reserv_breakfast": true,
+          "chose_by_day": [],
+          "auto_reserve_all": false
+        }
+      ],
+      "daily-sale": [
+        
+      ],
+      "groups": [],
+      "performace_report": [],
+      "account_status" : "active"
+    }
+  ],
+  "borrows": [
+    {
+      "gurantor_name": "",
+      "price": ""
+    }
+  ],
+  "menu": [
+    {
+      "date": "",
+      "days": [
+        {
+          "day": "شنبه",
+          "lunch": [
+            {
+              "index": 1,
+              "food": "قورمه سبزی",
+              "price": "15000"
+            },
+            {
+              "index": 2,
+              "food": "قیمه",
+              "price": "12000"
+            }
+          ],
+          "brakfast": [
+            {
+              "index": 1,
+              "food": "نون پنیر خیار",
+              "price": "15000"
+            },
+            {
+              "index": 2,
+              "food": "نون پنیر گوجه",
+              "price": "12000"
+            }
+          ],
+          "dinner": [
+            {
+              "index": 1,
+              "food": "کتلت",
+              "price": "15000"
+            },
+            {
+              "index": 2,
+              "food": "میرزا قاسمی",
+              "price": "12000"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

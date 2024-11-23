@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: Vazir;
+  src: url("./fonts/Vazir-Regular.eot");
+  src: url("./fonts/Vazir-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazir-Regular.woff2") format("woff2"),
+    url("./fonts/Vazir-Regular.woff") format("woff"),
+    url("./fonts/Vazir-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body::-webkit-scrollbar,
+body *::-webkit-scrollbar {
+  display: none;
+}kw
+html,
+body {
+  overflow: hidden;
+  font-family: Vazir;
+}
+@keyframes identifier {
+  0% {
+    left: -20%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+#HideMenu {
+  animation: identifier 300ms;
+}
