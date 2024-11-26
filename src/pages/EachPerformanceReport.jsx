@@ -58,7 +58,7 @@ const EachPerformanceReport = () => {
           </p>
           <strong>خیارشور گوجه ، سیبزمینی</strong>
         </p>
-        <p className='flex  items-center  '>
+        <p className='flex  items-center'>
           <p className='flex  items-center mx-2'>
             <CgShapeCircle className='text-xs text-indigo-600' />
             <span>نام</span> {"  "} :

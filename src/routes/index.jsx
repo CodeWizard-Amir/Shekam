@@ -10,6 +10,7 @@ import ReservationStatus from "../pages/ReservationStatus";
 import PasswordChange from "../pages/PasswordChange";
 import BlockAccount from "../pages/BlockAccount";
 import EachPerformanceReport from "../pages/EachPerformanceReport";
+import PaymentGetway from "../pages/PaymentGetway";
 export const appRoutes = createBrowserRouter([
     {
         path: "/",
@@ -57,5 +58,9 @@ export const appRoutes = createBrowserRouter([
             },
         ]
     },
+    {
+        path: "payment/:id",
+        element : <PaymentGetway />
+    }
 
 ])
