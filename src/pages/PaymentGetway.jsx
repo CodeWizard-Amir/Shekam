@@ -7,7 +7,7 @@ import { RiMailSendFill } from "react-icons/ri";
 
 const PaymentGetway = () => {
   const navigate = useNavigate();
-  const initialTime = .2 * 60; // 10 دقیقه به ثانیه
+  const initialTime = 5 * 60; // 10 دقیقه به ثانیه
   const [timeLeft, setTimeLeft] = useState(initialTime);
   useEffect(() => {
     if (timeLeft === 0) navigate("/"); // اگر زمان به صفر رسید، هیچ کاری نکنید

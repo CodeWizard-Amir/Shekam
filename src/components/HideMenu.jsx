@@ -54,7 +54,7 @@ const HideMenu = ({ setShowMenu }) => {
 
           <li className='flex py-1 hover:text-red-600 border-l-2 border-indigo-500  items-center'>
             <HiMiniQuestionMarkCircle className='mx-3 text-xl text-red-600' />
-            <Link to={"/"}>سوالات متداول</Link>
+            <Link to={"/faq"}>سوالات متداول</Link>
           </li>
           <li className='flex py-1 hover:text-blue-600 border-l-2 border-indigo-500  items-center'>
             <FcAbout className='mx-3 text-xl' />

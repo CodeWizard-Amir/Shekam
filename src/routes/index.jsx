@@ -11,6 +11,7 @@ import PasswordChange from "../pages/PasswordChange";
 import BlockAccount from "../pages/BlockAccount";
 import EachPerformanceReport from "../pages/EachPerformanceReport";
 import PaymentGetway from "../pages/PaymentGetway";
+import FAQ from "../pages/FAQ";
 export const appRoutes = createBrowserRouter([
     {
         path: "/",
@@ -55,6 +56,10 @@ export const appRoutes = createBrowserRouter([
             {
                 path: "/blockAccount",
                 element : <BlockAccount />
+            },
+            {
+                path: "/faq",
+                element : <FAQ />
             },
         ]
     },
